@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".LoginActivity">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="@color/colorPrimaryDark"
+    >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textColor="#fff"
+            android:text="Tourist Hotel"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="We serve you with high quality services and warm reception. Thank you for using our application"
+            android:textSize="15sp"
+            android:layout_marginTop="25dp"
+            />
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+                <Button
+                    android:id="@+id/signup"
+                    android:layout_margin="10dp"
+                    android:textColor="#fff"
+                    android:background="@drawable/buttonstylepink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up"/>
+                <Button
+                    android:layout_margin="10dp"
+                    android:textColor="#fff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Us"
+                    android:background="@drawable/buttonstyle2"/>
+        </LinearLayout>
+
+</LinearLayout>
+<LinearLayout
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tourist">
+        <EditText
+            android:id="@+id/txtUser"
+            android:drawableLeft="@drawable/ic_person_white"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:textColorHint="#fff"
+            android:textColor="#fff"/>
+        <EditText
+            android:id="@+id/txtPass"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_lock"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            />
+        <Button
+            android:id="@+id/login"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buttonstylepink"
+            android:text="Login"
+            android:textColor="#fff"
+            android:drawableRight="@drawable/ic_send_black_24dp"/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             "/>
+</LinearLayout>
+
+</LinearLayout>
+</RelativeLayout>

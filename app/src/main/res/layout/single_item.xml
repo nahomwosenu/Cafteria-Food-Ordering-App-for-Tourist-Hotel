@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="8dp">
+    <ImageView
+        android:id="@+id/foodIcon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/amugate"/>
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:maxLines="1"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/foodIcon"
+        android:layout_toEndOf="@+id/foodIcon"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:text="King Burger"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtBelow"
+        android:textSize="14sp"
+        android:maxLines="1"
+        android:layout_below="@+id/txtTitle"
+        android:layout_alignLeft="@id/txtTitle"
+        android:layout_alignStart="@id/txtTitle"
+        android:text="ETB 80.00"/>
+    <ImageButton
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txtBelow"
+        android:layout_toEndOf="@id/txtBelow"
+        android:src="@drawable/ic_add_circle_black_24dp"/>
+</RelativeLayout>

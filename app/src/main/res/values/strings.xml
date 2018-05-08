@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Tourist Food Ordering App</string>
+    <string name="title_activity_user">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="food_prompt">Choose Category</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_category">Main Category</string>
+    <string name="sub_category">Sub Category</string>
+    <string-array name="foods">
+        <item>Fast Food</item>
+        <item>Meal</item>
+        <item>Soft Drink</item>
+        <item>Alcohol</item>
+        <item>Food</item>
+    </string-array>
+    <string-array name="main_catagory">
+        <item>Food</item>
+        <item>Soft Drink</item>
+        <item>Alcohol</item>
+    </string-array>
+    <string-array name="sub_catagory">
+        <item>Fast Food</item>
+        <item>Meal</item>
+        <item>Cake</item>
+        <item>Juice</item>
+    </string-array>
+    <string name="title_activity_admin">AdminActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

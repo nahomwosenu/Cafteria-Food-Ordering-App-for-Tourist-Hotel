@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.touristhotel.www.main.SignupActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/azure">
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/pink">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"/>
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <EditText
+                            android:id="@+id/txtFullName"
+                            android:background="@drawable/edittextstyle"
+                            android:hint="Full Name"
+                            android:layout_marginTop="20dp"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"/>
+                        <EditText
+                            android:id="@+id/txtPhone"
+                            android:background="@drawable/edittextstyle"
+                            android:hint="Phone Number"
+                            android:inputType="phone"
+                            android:layout_marginTop="40dp"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"/>
+                        <EditText
+                            android:id="@+id/tableNumber"
+                            android:background="@drawable/edittextstyle"
+                            android:hint="Table Number"
+                            android:inputType="number"
+                            android:layout_marginTop="40dp"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"/>
+                        <CheckBox
+                            android:id="@+id/cboAgree"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:text="I agree with the terms of tourist hotels"/>
+                    </LinearLayout>
+                </ScrollView>
+
+                <Button
+                    android:id="@+id/btnFinish"
+                    android:textColor="#fff"
+                    android:background="@drawable/buttonstyle"
+                    android:text="Finish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"/>
+                <LinearLayout
+                    android:layout_marginTop="25dp"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#fff"
+                        android:textSize="23sp"
+                        android:text="Arbaminch Tourist Hotels"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:layout_marginTop="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_marginRight="15dp"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:src="@drawable/ic_phone_android_black_24dp"/>
+                        <ImageView
+                            android:layout_marginRight="15dp"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:src="@drawable/ic_phone_black_24dp"/>
+                        <ImageView
+                            android:layout_marginRight="15dp"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:src="@drawable/ic_email_black_24dp"/>
+                        <ImageView
+                            android:layout_marginRight="15dp"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:src="@drawable/ic_home_black_24dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

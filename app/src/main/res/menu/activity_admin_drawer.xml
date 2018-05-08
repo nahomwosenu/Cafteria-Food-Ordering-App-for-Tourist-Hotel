@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="Pending Orders" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_report_black_24dp"
+            android:title="View Feedbacks" />
+        <item
+            android:id="@+id/nav_addnew"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Add Menu Item" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="Manage Menu" />
+        <item
+            android:id="@+id/nav_manage_user"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Manage Customers" />
+        <item
+            android:id="@+id/nav_manage_employee"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Manage Employees" />
+        <item
+            android:id="@+id/nav_add_employee"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Register Employees" />
+    </group>
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
